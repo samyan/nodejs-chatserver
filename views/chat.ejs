@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html style="background-attachment: scroll;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title id="title">ChatServer</title>
+		
+		<!-- General Style -->
+		<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+	</head>
+
+	<body>
+		<div id="chat_box">
+			<div id="chat_box_border">
+
+				<span id="username" style="display: none"><%= username %></span>		
+				<div id="chat_content"></div>
+				<div id="chat_user_list"></div>
+					
+				<div id="chat_controls">
+					<input type="text" id="message_input"></input>
+					<div id="message_button"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">Copyright 2014 SecurityNull, Inc under the GPL v3 license.</div>
+
+		<audio id="player" preload="auto" autobuffer>
+			<source src="/audio/message.mp3"/>
+		</audio>
+
+		<!-- jQuery Library -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- jQuery-UI Library -->
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<!-- Socket.IO Library -->
+		<script src="/socket.io/socket.io.js"></script>
+		<!-- App -->
+		<script src="/js/chat.js"></script>
+	</body>
+</html>

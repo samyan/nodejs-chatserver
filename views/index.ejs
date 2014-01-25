@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html style="background-attachment: scroll;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ChatServer Login</title>
+		
+		<!-- General Style -->
+		<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+	</head>
+
+	<body>
+		<div id="login_box">
+			<div id="login_box_content">
+				<form id="login_form" method="POST" action="/chat">
+					<input id="login_input" type="text" name="username" value="Username" onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					</input>
+					<button id="login_button" type="submit">Login</input>
+				</form>
+			</div>
+		</div>
+
+		<div class="copyright">Copyright 2014 SecurityNull, Inc under the GPL v3 license.</div>
+
+		<!-- jQuery Library -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- Socket.IO Library -->
+		<script src="/socket.io/socket.io.js"></script>
+		<!-- App -->
+		<script src="/js/index.js"></script>
+	</body>
+</html>

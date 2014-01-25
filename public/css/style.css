@@ -1,0 +1,169 @@
+/**
+ * ChatServer
+ *
+ * @author Fakedo0r <luvel88@gmail.com>
+ * @copyright 
+ * @license GPL v3
+ */
+ 
+@import url('http://fonts.googleapis.com/css?family=Duru+Sans');
+
+body {
+	background-image: url(../img/bg.png);
+	font-family: 'Duru Sans', sans-serif;
+	font-size: small;
+}
+
+#chat_box {
+	height: 453px;
+	width: 686px;
+	margin: auto;
+	margin-top: 100px;
+	border: solid 0px #292929;
+	background-image: url(../img/chatphone.png);
+	background-repeat: no-repeat;
+}
+
+#chat_box_border {
+	height: 93%;
+	width: 83%;
+	margin: auto;
+	top: 13px;
+	right: 7px;
+	position: relative;
+	border: 0px solid #000000;
+}
+
+#chat_content {
+	height: 87%;
+	width: 72%;
+	top: 12px;
+	left: 7px;
+	float: left;
+	position: relative;
+	border: solid 0px #292929;
+	background-repeat: repeat-y;
+	overflow-y: auto;
+}
+
+.chat_content_line, .chat_content_line2, .chat_content_line3 {
+	width: 370px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	box-shadow: 0px 2px 2px #292929;
+	border: 1px solid #292929;
+	word-wrap: break-word;
+	background-color: #d0e9be;
+}
+
+.chat_content_line2 {
+	background-color: #E9DDBE;
+}
+
+.chat_content_line3 {
+	background-color: #E9C8BE;
+}
+
+#chat_user_list {
+	height: 87%;
+	width: 23%;
+	top: 12px;
+	right: 9px;
+	float: right;
+	position: relative;
+	border: 0px solid #292929;
+	overflow-y: auto;
+}
+
+.chat_user_item {
+	width: 100px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #000000;
+	background-color: #BEE0E9;
+	word-wrap: break-word;
+	box-shadow: 0px 2px 2px #292929;
+}
+
+#chat_controls {
+	height: 8%;
+	width: 97%;
+	top: 21px;
+	left: 7px;
+	clear: both;
+	position: relative;
+	border: 0px solid #000000;
+}
+
+#message_input {
+	width: 90%;
+	top: 6px;
+	left: 5px;
+	float: left;
+	padding: 2px;
+	margin: auto;
+	position: relative;
+	border: 1px solid rgb(248, 114, 39);
+	background-color: #FFFFFF;
+}
+
+#message_button {
+	width: 32px;
+	height: 32px;
+	top: 1px;
+	right: 6px;
+	float: right;
+	position: relative;
+	background-image: url(../img/msgbutton.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#login_box {
+	height: 150px;
+	width: 300px;
+	margin: auto;
+	margin-top: 150px;
+	border: solid 1px #000000;
+	box-shadow: 0px 2px 2px #292929;
+	border-radius: 10px;
+	background-image: url(../img/bg5.png);
+}
+
+#login_box_content {
+	height: 125px;
+	width: 280px;
+	margin: auto;
+	margin-top: 10px;
+	border: solid 1px #000000;
+	border-radius: 10px;
+	background-image: url(../img/bg2.png);
+}
+
+#login_form input[type=text] {
+	width: 90%;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 2px solid white; 
+	background-color: #FFFFFF;
+	color: #888;
+}
+
+#login_button {
+	margin-top: 20px;
+	width: 80%;
+	margin-left: 25px;
+	cursor: pointer;
+ }
+
+ .copyright {
+ 	font-weight: bold;
+ 	width: 400px;
+ 	margin: auto;
+ 	margin-top: 20px;
+ 	position: relative;
+ }
