@@ -11,7 +11,6 @@ var utilities = require('../modules/utilities');
  * Constructor 
  *
  * @param {server}
- * @param {userlist}
  */
 var Chat = function(server) {
 	this.server = server;
