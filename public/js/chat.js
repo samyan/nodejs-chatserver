@@ -1,6 +1,5 @@
-
 $(document).ready(function() {
-	var messageForm;
+	var messageButton;
 	var message;
 	var chat;
 	var username;
